@@ -1,0 +1,12 @@
+# MIME types for video
+AddType video/mp4  .mp4
+AddType video/webm .webm
+AddType video/ogg  .ogv
+
+# Enable range requests (required for video seeking/streaming)
+Header set Accept-Ranges bytes
+
+# Cache static assets
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|mp4|webm)$">
+  Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
