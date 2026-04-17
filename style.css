@@ -401,6 +401,14 @@ em { font-style: italic; color: var(--gold); }
   border: 1px solid rgba(201,168,76,0.15);
 }
 
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
 .about-img-placeholder {
   width: 100%;
   height: 100%;
@@ -580,6 +588,14 @@ em { font-style: italic; color: var(--gold); }
   overflow: hidden;
   border: 1px solid rgba(201,168,76,0.15);
   margin-bottom: 2rem;
+}
+
+.fitness-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
 
 .fitness-img-placeholder {
