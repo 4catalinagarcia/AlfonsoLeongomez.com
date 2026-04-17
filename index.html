@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alfonso Leongomez — Circus Artist & Fitness Coach</title>
+  <meta name="description" content="Alfonso Leongomez — Circus performer, street artist and Pilates instructor. Book performances and fitness classes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">AL</a>
+    <ul class="nav-links">
+      <li><a href="#about"    data-en="About"        data-es="Sobre mí">About</a></li>
+      <li><a href="#performs" data-en="Performances"  data-es="Actuaciones">Performances</a></li>
+      <li><a href="#fitness"  data-en="Fitness"       data-es="Fitness">Fitness</a></li>
+      <li><a href="#gallery"  data-en="Gallery"       data-es="Galería">Gallery</a></li>
+      <li><a href="#contact"  data-en="Contact"       data-es="Contacto">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="https://www.instagram.com/akaralai/" target="_blank" rel="noopener noreferrer" class="nav-instagram" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+        <span class="lang-option active" data-lang="en">EN</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-option" data-lang="es">ES</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about"    data-en="About"        data-es="Sobre mí">About</a></li>
+      <li><a href="#performs" data-en="Performances"  data-es="Actuaciones">Performances</a></li>
+      <li><a href="#fitness"  data-en="Fitness"       data-es="Fitness">Fitness</a></li>
+      <li><a href="#gallery"  data-en="Gallery"       data-es="Galería">Gallery</a></li>
+      <li><a href="#contact"  data-en="Contact"       data-es="Contacto">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="assets/videos/FireShow.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-en="Circus Artist · Street Performer · Pilates Instructor" data-es="Artista de Circo · Artista Callejero · Instructor de Pilates">Circus Artist · Street Performer · Pilates Instructor</p>
+      <h1 class="hero-name">Alfonso<br/><em>Leongomez</em></h1>
+      <p class="hero-sub" data-en="Where the raw energy of the street meets the discipline of the body." data-es="Donde la energía cruda de la calle se encuentra con la disciplina del cuerpo.">Where the raw energy of the street meets the discipline of the body.</p>
+      <div class="hero-ctas">
+        <a href="#performs" class="btn btn-gold" data-en="Book a Show" data-es="Reservar Espectáculo">Book a Show</a>
+        <a href="#fitness"  class="btn btn-ghost" data-en="Join a Class" data-es="Unirse a Clase">Join a Class</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <div class="about-img-placeholder"></div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-number">10+</span>
+          <span class="badge-label" data-en="Years performing" data-es="Años en escena">Years performing</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-eyebrow" data-en="About Alfonso" data-es="Sobre Alfonso">About Alfonso</span>
+        <h2 data-en="Two worlds.<br/>One artist." data-es="Dos mundos.<br/>Un artista.">Two worlds.<br/>One artist.</h2>
+        <p data-en="Alfonso Leongomez is a multidisciplinary artist whose life moves between two passions that, at first glance, might seem opposed — yet share the same beating heart: the body in motion, pushed to its limits, turned into art." data-es="Alfonso Leongomez es un artista multidisciplinar cuya vida se mueve entre dos pasiones que, a primera vista, podrían parecer opuestas, pero que comparten el mismo latido: el cuerpo en movimiento, llevado a sus límites, convertido en arte.">Alfonso Leongomez is a multidisciplinary artist whose life moves between two passions that, at first glance, might seem opposed — yet share the same beating heart: the body in motion, pushed to its limits, turned into art.</p>
+        <p data-en="As a circus and street performer, he transforms public spaces into stages — juggling, acrobatics, physical comedy, and aerial work that stop crowds in their tracks. As a certified Pilates and movement coach, he helps students reconnect with their bodies, build strength from the inside out, and find their own flow." data-es="Como artista de circo y calle, transforma espacios públicos en escenarios: malabares, acrobacia, comedia física y trabajo aéreo que detienen multitudes. Como instructor certificado de Pilates y movimiento, ayuda a sus alumnos a reconectarse con su cuerpo, construir fuerza desde adentro y encontrar su propio flujo.">As a circus and street performer, he transforms public spaces into stages — juggling, acrobatics, physical comedy, and aerial work that stop crowds in their tracks. As a certified Pilates and movement coach, he helps students reconnect with their bodies, build strength from the inside out, and find their own flow.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-n">500+</span>
+            <span class="stat-l" data-en="Shows worldwide" data-es="Espectáculos globales">Shows worldwide</span>
+          </div>
+          <div class="stat">
+            <span class="stat-n">200+</span>
+            <span class="stat-l" data-en="Students coached" data-es="Alumnos entrenados">Students coached</span>
+          </div>
+          <div class="stat">
+            <span class="stat-n">15+</span>
+            <span class="stat-l" data-en="Countries visited" data-es="Países visitados">Countries visited</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERFORMANCES -->
+  <section id="performs" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-en="What I Do" data-es="Lo que hago">What I Do</span>
+        <h2 data-en="Performances &amp; Shows" data-es="Actuaciones y Espectáculos">Performances &amp; Shows</h2>
+        <p class="section-lead" data-en="From intimate street corners to grand festival stages — every show is a world unto itself." data-es="Desde íntimas esquinas callejeras hasta grandes escenarios de festivales: cada espectáculo es un mundo en sí mismo.">From intimate street corners to grand festival stages — every show is a world unto itself.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">🎪</div>
+          <h3 data-en="Circus Acts" data-es="Actos de Circo">Circus Acts</h3>
+          <p data-en="High-energy circus performances featuring juggling, acrobatics, aerial disciplines, and object manipulation — tailored for festivals, corporate events, and private celebrations." data-es="Espectáculos de circo de alta energía con malabares, acrobacia, disciplinas aéreas y manipulación de objetos, adaptados para festivales, eventos corporativos y celebraciones privadas.">High-energy circus performances featuring juggling, acrobatics, aerial disciplines, and object manipulation — tailored for festivals, corporate events, and private celebrations.</p>
+          <ul class="card-tags">
+            <li data-en="Juggling" data-es="Malabares">Juggling</li>
+            <li data-en="Acrobatics" data-es="Acrobacia">Acrobatics</li>
+            <li data-en="Aerial" data-es="Aéreo">Aerial</li>
+          </ul>
+        </article>
+        <article class="card card-featured">
+          <div class="card-icon">🔥</div>
+          <h3 data-en="Street &amp; Fire Shows" data-es="Shows de Calle y Fuego">Street &amp; Fire Shows</h3>
+          <p data-en="Outdoor spectacles that turn any public space into a theatre. Fire manipulation, crowd interaction, and physical comedy create unforgettable moments in open air." data-es="Espectáculos al aire libre que convierten cualquier espacio público en un teatro. Manipulación de fuego, interacción con el público y comedia física crean momentos inolvidables.">Outdoor spectacles that turn any public space into a theatre. Fire manipulation, crowd interaction, and physical comedy create unforgettable moments in open air.</p>
+          <ul class="card-tags">
+            <li data-en="Fire" data-es="Fuego">Fire</li>
+            <li data-en="Street Theatre" data-es="Teatro Callejero">Street Theatre</li>
+            <li data-en="Comedy" data-es="Comedia">Comedy</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card-icon">🎭</div>
+          <h3 data-en="Custom Experiences" data-es="Experiencias a Medida">Custom Experiences</h3>
+          <p data-en="Bespoke performances designed around your event's theme, audience, and venue. From solo acts to full company productions, every detail is crafted with intention." data-es="Actuaciones a medida diseñadas en torno al tema de tu evento, audiencia y lugar. Desde actos en solitario hasta producciones completas, cada detalle está hecho con intención.">Bespoke performances designed around your event's theme, audience, and venue. From solo acts to full company productions, every detail is crafted with intention.</p>
+          <ul class="card-tags">
+            <li data-en="Corporate" data-es="Corporativo">Corporate</li>
+            <li data-en="Private Events" data-es="Eventos Privados">Private Events</li>
+            <li data-en="Festivals" data-es="Festivales">Festivals</li>
+          </ul>
+        </article>
+      </div>
+      <div class="section-cta">
+        <a href="#contact" class="btn btn-gold" data-en="Book a Performance" data-es="Reservar Actuación">Book a Performance</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITNESS -->
+  <section id="fitness" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-en="Movement &amp; Wellness" data-es="Movimiento y Bienestar">Movement &amp; Wellness</span>
+        <h2 data-en="Fitness &amp; Classes" data-es="Fitness y Clases">Fitness &amp; Classes</h2>
+        <p class="section-lead" data-en="Rooted in circus training principles, Alfonso's fitness approach builds real-world strength, mobility, and body awareness." data-es="Arraigado en los principios del entrenamiento circense, el enfoque fitness de Alfonso desarrolla fuerza real, movilidad y conciencia corporal.">Rooted in circus training principles, Alfonso's fitness approach builds real-world strength, mobility, and body awareness.</p>
+      </div>
+      <div class="fitness-layout">
+        <div class="fitness-offerings">
+          <div class="offering" data-offer="pilates">
+            <div class="offering-icon">🧘</div>
+            <div class="offering-body">
+              <h3 data-en="Pilates" data-es="Pilates">Pilates</h3>
+              <p data-en="Mat and reformer Pilates sessions grounded in classical method and enriched by movement arts. All levels welcome." data-es="Sesiones de Pilates en esterilla y reformer, basadas en el método clásico y enriquecidas por las artes del movimiento. Todos los niveles bienvenidos.">Mat and reformer Pilates sessions grounded in classical method and enriched by movement arts. All levels welcome.</p>
+            </div>
+          </div>
+          <div class="offering" data-offer="conditioning">
+            <div class="offering-icon">💪</div>
+            <div class="offering-body">
+              <h3 data-en="Circus Conditioning" data-es="Acondicionamiento Circense">Circus Conditioning</h3>
+              <p data-en="Strength and flexibility training inspired by circus arts. Build the functional body of a performer — without ever stepping in a ring." data-es="Entrenamiento de fuerza y flexibilidad inspirado en las artes circenses. Desarrolla el cuerpo funcional de un artista, sin necesidad de subir a un escenario.">Strength and flexibility training inspired by circus arts. Build the functional body of a performer — without ever stepping in a ring.</p>
+            </div>
+          </div>
+          <div class="offering" data-offer="movement">
+            <div class="offering-icon">🌀</div>
+            <div class="offering-body">
+              <h3 data-en="Movement Coaching" data-es="Coaching de Movimiento">Movement Coaching</h3>
+              <p data-en="One-on-one or small group sessions focused on posture, coordination, mobility, and body intelligence. Ideal for performers, athletes, and anyone seeking to move better." data-es="Sesiones individuales o en grupos pequeños enfocadas en postura, coordinación, movilidad e inteligencia corporal. Ideal para artistas, atletas y quienes desean moverse mejor.">One-on-one or small group sessions focused on posture, coordination, mobility, and body intelligence. Ideal for performers, athletes, and anyone seeking to move better.</p>
+            </div>
+          </div>
+          <div class="offering" data-offer="workshops">
+            <div class="offering-icon">🎓</div>
+            <div class="offering-body">
+              <h3 data-en="Workshops" data-es="Talleres">Workshops</h3>
+              <p data-en="Intensive workshops combining circus skills and fitness fundamentals. Great for corporate team-building, schools, and community events." data-es="Talleres intensivos que combinan habilidades circenses y fundamentos fitness. Ideales para team-building corporativo, colegios y eventos comunitarios.">Intensive workshops combining circus skills and fitness fundamentals. Great for corporate team-building, schools, and community events.</p>
+            </div>
+          </div>
+        </div>
+        <div class="fitness-visual">
+          <div class="fitness-img-frame">
+            <div class="fitness-img-placeholder"></div>
+          </div>
+          <div class="fitness-quote">
+            <blockquote>
+              <p data-en="&ldquo;Every body is an instrument. My job is to help you play it.&rdquo;" data-es="&ldquo;Cada cuerpo es un instrumento. Mi trabajo es ayudarte a tocarlo.&rdquo;">&ldquo;Every body is an instrument. My job is to help you play it.&rdquo;</p>
+              <cite>— Alfonso Leongomez</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="#contact" class="btn btn-gold" data-en="Schedule a Class" data-es="Agendar una Clase">Schedule a Class</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow" data-en="Gallery" data-es="Galería">Gallery</span>
+        <h2 data-en="In Action" data-es="En Acción">In Action</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--large">
+          <img src="assets/images/Show1.jpg" alt="Alfonso Leongomez — Street Performance" class="gallery-img" />
+          <div class="gallery-overlay">
+            <span data-en="Street Performance" data-es="Actuación Callejera">Street Performance</span>
+          </div>
+          <a class="photo-credit" href="https://www.instagram.com/dithreekhali" target="_blank" rel="noopener noreferrer">© @dithreekhali</a>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/Fire1.jpg" alt="Alfonso Leongomez — Fire Show" class="gallery-img" />
+          <div class="gallery-overlay">
+            <span data-en="Fire Show" data-es="Espectáculo de Fuego">Fire Show</span>
+          </div>
+          <a class="photo-credit" href="https://www.instagram.com/dithreekhali" target="_blank" rel="noopener noreferrer">© @dithreekhali</a>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/images/Fire2.jpg" alt="Alfonso Leongomez — Fire Performance" class="gallery-img" />
+          <div class="gallery-overlay">
+            <span data-en="Fire Performance" data-es="Actuación de Fuego">Fire Performance</span>
+          </div>
+          <a class="photo-credit" href="https://www.instagram.com/dithreekhali" target="_blank" rel="noopener noreferrer">© @dithreekhali</a>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g4"></div>
+          <div class="gallery-overlay">
+            <span data-en="Aerial Work" data-es="Trabajo Aéreo">Aerial Work</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g5"></div>
+          <div class="gallery-overlay">
+            <span data-en="Workshop" data-es="Taller">Workshop</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-layout">
+      <div class="contact-info">
+        <span class="section-eyebrow" data-en="Get in Touch" data-es="Ponerse en Contacto">Get in Touch</span>
+        <h2 data-en="Let's create<br/>something." data-es="Creemos<br/>algo juntos.">Let's create<br/>something.</h2>
+        <p data-en="Whether you want to book a show, join a class, or just say hello — Alfonso would love to hear from you." data-es="Ya sea para reservar un espectáculo, unirse a una clase o simplemente saludar, Alfonso estará encantado de escucharte.">Whether you want to book a show, join a class, or just say hello — Alfonso would love to hear from you.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <span>hola@alfonsoleongomez.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span data-en="Available worldwide" data-es="Disponible en todo el mundo">Available worldwide</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name" data-en="Your Name" data-es="Tu Nombre">Your Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email" data-en="Your Email" data-es="Tu Email">Your Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject" data-en="I'm interested in…" data-es="Me interesa…">I'm interested in…</label>
+          <select id="subject" name="subject">
+            <option value="" data-en="Select an option" data-es="Selecciona una opción">Select an option</option>
+            <option value="show" data-en="Booking a performance" data-es="Reservar una actuación">Booking a performance</option>
+            <option value="class" data-en="Joining a class" data-es="Unirme a una clase">Joining a class</option>
+            <option value="workshop" data-en="A workshop or event" data-es="Un taller o evento">A workshop or event</option>
+            <option value="other" data-en="Something else" data-es="Otra cosa">Something else</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message" data-en="Message" data-es="Mensaje">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-full" data-en="Send Message" data-es="Enviar Mensaje">Send Message</button>
+        <p class="form-success hidden" data-en="Thanks! I'll be in touch soon." data-es="¡Gracias! Te contactaré pronto.">Thanks! I'll be in touch soon.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Alfonso Leongomez</p>
+      <p class="footer-tagline" data-en="Circus Artist · Street Performer · Pilates Instructor" data-es="Artista de Circo · Artista Callejero · Instructor de Pilates">Circus Artist · Street Performer · Pilates Instructor</p>
+      <p class="footer-copy" data-en="© 2026 Alfonso Leongomez. All rights reserved." data-es="© 2026 Alfonso Leongomez. Todos los derechos reservados.">© 2026 Alfonso Leongomez. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
